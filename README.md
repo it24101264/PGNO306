@@ -9,34 +9,34 @@ The workflow follows a modular pipeline approach, with each step separated into 
 
 PGNO306/
 │
-├── data/ # Raw and altered datasets
-│ ├── raw/ # Original input data
-│ └── alter/ # Modified / cleaned data
+├── data/                        # Raw and altered datasets
+│   ├── raw/                     # Original input data
+│   └── alter/                   # Modified / cleaned data
 │
-├── notebooks/ # Step-by-step processing notebooks
-│ ├── dataCleaning.ipynb # Handle missing values, duplicates, inconsistencies
-│ ├── IT2410186_outliarsHandling.ipynb # Outlier detection and winsorization
-│ ├── IT24101232_encodingData.ipynb # Encode categorical variables
-│ ├── dataScaling.ipynb # Scale numerical features
-│ ├── IT24101264_dataResampling.ipynb # Handle class imbalance (SMOTE, over/undersampling)
-│ ├── IT24100760_featureSelection.ipynb # Feature importance (embedded methods)
-│ ├── classBalancing.ipynb # Alternative class balancing experiments
-│ ├── eda.ipynb # Exploratory Data Analysis
-│ └── pipeline.ipynb # End-to-end pipeline (all steps combined)
+├── notebooks/                   # Step-by-step processing notebooks
+│   ├── dataCleaning.ipynb                 # Handle missing values, duplicates, inconsistencies
+│   ├── IT2410186_outliarsHandling.ipynb   # Outlier detection and winsorization
+│   ├── IT24101232_encodingData.ipynb      # Encode categorical variables
+│   ├── dataScaling.ipynb                  # Scale numerical features
+│   ├── IT24101264_dataResampling.ipynb    # Handle class imbalance (SMOTE, over/undersampling)
+│   ├── IT24100760_featureSelection.ipynb  # Feature importance (embedded methods)
+│   ├── classBalancing.ipynb               # Alternative class balancing experiments
+│   ├── eda.ipynb                          # Exploratory Data Analysis
+│   └── pipeline.ipynb                     # End-to-end pipeline (all steps combined)
 │
 ├── results/
-│ ├── EDA Visuals/ # Saved plots (boxplots, histograms, etc.)
-│ ├── logs/ # Logs from runs
-│ └── outputs/ # Resampled datasets
-│ ├── df_downsampled.csv
-│ ├── df_upsampled.csv
-│ ├── X_train_sm.csv
-│ └── y_train_sm.csv
+│   ├── EDA Visuals/              # Saved plots (boxplots, histograms, etc.)
+│   ├── logs/                     # Logs from runs
+│   └── outputs/                  # Resampled datasets
+│       ├── df_downsampled.csv
+│       ├── df_upsampled.csv
+│       ├── X_train_sm.csv
+│       └── y_train_sm.csv
 │
-└── README.md # Project documentation (this file)
+└── README.md                     # Project documentation (this file)
 
-markdown
-Copy code
+
+
 
 ---
 
