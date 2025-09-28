@@ -64,7 +64,6 @@ PGNO306/
 5. **Resampling (`IT24101264_dataResampling.ipynb`)**
 
    - Random oversampling / undersampling
-   - SMOTE (synthetic minority oversampling)
 
 6. **Feature Selection (`IT24100760_featureSelection.ipynb`)**
 
